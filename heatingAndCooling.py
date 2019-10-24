@@ -2,6 +2,7 @@
 
 def main():
     temperatures = input("Enter the average daily temperatures seperated by spaces: ")
+    temperatures = temperatures.split(" ")
     coolingDegreeDays = 0
     heatingDegreeDays = 0
     
